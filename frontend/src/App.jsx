@@ -23,7 +23,7 @@ function App() {
     setWish(generatedWish);
 
     // Optionally, you can send this wish to your backend if needed
-    axios.post('https://deploy-mern-api.vercel.app/wish', { name, relationship, wish: generatedWish })
+    axios.post('https://birthdaywishdynamic-api.vercel.app/wish', { name, relationship, wish: generatedWish })
       .then(result => console.log(result))
       .catch(err => console.log(err));
   };
