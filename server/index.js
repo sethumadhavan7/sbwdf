@@ -5,13 +5,13 @@ const RegisterModel = require('./models/Register');
 
 const app = express();
 app.use(cors({
-    origin: ["https://deploy-mern-frontend.vercel.app"],
+    origin: ["https://birthdaywishdynamic-frontend.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
 }));
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://yousaf:test123@cluster0.g4i5dey.mongodb.net/test?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://sethumadhavan:indrajit@cluster0.dbntwx8.mongodb.net/mern-app?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log(err));
 
