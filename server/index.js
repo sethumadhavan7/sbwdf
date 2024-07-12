@@ -5,7 +5,7 @@ const RegisterModel = require('./models/Register');
 
 const app = express();
 app.use(cors({
-    origin: ["https://birthdaywishdynamic-frontend.vercel.app"],
+    origin: ["https://sethuwebsite-frontend.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
 }));
