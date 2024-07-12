@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 } */
+body{
+  background-image: linear-gradient(to right,rgb(220, 39, 205),rgb(220, 39, 205));
+}
+.footerimg{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+}
+.footerimg img {
+  max-width: 130px;
+  height:auto;
+}
